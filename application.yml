@@ -58,7 +58,7 @@ management:
         enabled: true
   tracing:
     sampling:
-      probability: 1
+      probability: 100
 
 # Chaos Engineering
 ---
