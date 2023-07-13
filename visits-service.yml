@@ -17,6 +17,10 @@ chaos:
       repository: false
       rest-controller: false
       service: false
+    assaults:
+      latencyActive: true
+      latencyRangeStart: 10000
+      latencyRangeEnd: 15000
 server:
   port: 8082
 eureka:
@@ -25,7 +29,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-      
 
 ---
 spring:
