@@ -17,6 +17,8 @@ server:
 # Internationalization
 spring.messages.basename: messages/messages
 spring:
+  instance:
+    hostname: localhost
   config:
     activate:
       on-profile: default
