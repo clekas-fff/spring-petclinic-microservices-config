@@ -18,7 +18,14 @@ spring:
   config:
     activate:
       on-profile: chaos-monkey      
-management.endpoint.chaosmonkey.enabled: true
+management:
+  endpoint:
+    chaosmonkey:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health,info,chaosmonkey
 chaos:
   monkey:
     enabled: true
