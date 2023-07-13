@@ -46,6 +46,8 @@ management:
       enabled: true
     prometheus:
       enabled: true
+    chaosmonkey:
+      enabled: true
   endpoints:
     web:
       exposure:
