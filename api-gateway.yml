@@ -20,8 +20,8 @@ spring:
   config:
     activate:
       on-profile: default
-  zipkin:
-    baseUrl: http://localhost:9411
+  #zipkin:
+  #  baseUrl: http://localhost:9411
 eureka:
   instance:
     hostname: localhost
