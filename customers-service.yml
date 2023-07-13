@@ -7,6 +7,8 @@
 server:
   port: 8081
 eureka:
+  instance:
+    hostname: localhost
   client:
     serviceUrl:
       defaultZone: http://44.211.154.193:8761/eureka/
