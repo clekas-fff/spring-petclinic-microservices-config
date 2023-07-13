@@ -3,13 +3,13 @@
     activate:
       on-profile: default
   zipkin:
-    baseUrl: http://localhost:9411
+    baseUrl: http://44.211.154.193:9411
 server:
   port: 8081
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://44.211.154.193:8761/eureka/
 
 ---
 spring:
