@@ -22,10 +22,6 @@ management:
   endpoint:
     chaosmonkey:
       enabled: true
-  endpoints:
-    web:
-      exposure:
-        include: chaosmonkey
 chaos:
   monkey:
     enabled: true
