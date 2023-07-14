@@ -4,6 +4,26 @@
       on-profile: default
   #zipkin:
   #  baseUrl: http://localhost:9411
+management:
+  endpoint:
+    chaosmonkey:
+      enabled: true
+chaos:
+  monkey:
+    enabled: true
+    watcher:
+      component: true
+      controller: true
+      repository: true
+      rest-controller: true
+      service: true
+    assaults:
+      level: 4
+      deterministic: false
+      exceptionsActive: true
+      exception:
+        type: java.lang.RuntimeException
+        method: findAll
 server:
   port: 8081
 eureka:
