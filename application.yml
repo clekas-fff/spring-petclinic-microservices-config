@@ -48,10 +48,16 @@ management:
       enabled: true
     chaosmonkey:
       enabled: true
+    chaosmonkeyjmx:
+      enabled: true
   endpoints:
     web:
       exposure:
         include: '*'
+        include:
+          - health
+          - info
+          - chaosmonkey
   metrics:
     export:
       prometheus:
