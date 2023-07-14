@@ -17,13 +17,13 @@ chaos:
       repository: true
       rest-controller: true
       service: true
-    assaults:
-      level: 2
-      deterministic: false
-      exceptionsActive: true
-      exception:
-        type: java.lang.CertificateException
-        method: findAll
+    #assaults:
+    #  level: 2
+    #  deterministic: false
+    #  exceptionsActive: true
+    #  exception:
+    #    type: java.lang.CertificateException
+    #    method: findAll
 server:
   port: 8081
 eureka:
