@@ -28,9 +28,9 @@ chaos:
       service: true
     assaults:
       memoryActive: true
-      memoryMillisecondsHoldFilledMemory: 90000
-      memoryMillisecondsWaitNextIncrease: 3000
-      memoryFillIncrementFraction: 0.02
+      memoryMillisecondsHoldFilledMemory: 5000
+      memoryMillisecondsWaitNextIncrease: 1000
+      memoryFillIncrementFraction: 0.1
       memoryFillTargetFraction: 0.95
 server:
   port: 8083
