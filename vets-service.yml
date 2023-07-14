@@ -20,6 +20,7 @@ management:
 chaos:
   monkey:
     enabled: true
+    level: 5
     watcher:
       component: true
       controller: true
