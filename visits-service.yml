@@ -12,11 +12,11 @@ chaos:
   monkey:
     enabled: true
     watcher:
-      component: false
-      controller: false
-      repository: false
-      rest-controller: false
-      service: false
+      component: true
+      controller: true
+      repository: true
+      rest-controller: true
+      service: true
     assaults:
       latencyActive: true
       latencyRangeStart: 10000
@@ -43,11 +43,11 @@ chaos:
   monkey:
     enabled: true
     watcher:
-      component: false
-      controller: false
-      repository: false
-      rest-controller: false
-      service: false
+      component: true
+      controller: true
+      repository: true
+      rest-controller: true
+      service: true
 
 ---
 spring:
