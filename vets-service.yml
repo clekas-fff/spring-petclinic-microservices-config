@@ -28,10 +28,15 @@ chaos:
       service: true
     assaults:
       memoryActive: true
-      memoryMillisecondsHoldFilledMemory: 5000
+      memoryMillisecondsHoldFilledMemory: 90000
       memoryMillisecondsWaitNextIncrease: 1000
       memoryFillIncrementFraction: 0.1
       memoryFillTargetFraction: 0.95
+      runtime:
+        scope:
+          assault:
+            cron:
+              expression: */1 * * * *
 server:
   port: 8083
 eureka:
