@@ -22,7 +22,7 @@ chaos:
       deterministic: false
       exceptionsActive: true
       exception:
-        type: java.lang.RuntimeException
+        type: java.lang.CertificateException
         method: findAll
 server:
   port: 8081
