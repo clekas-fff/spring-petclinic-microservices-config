@@ -17,10 +17,10 @@ chaos:
       repository: true
       rest-controller: true
       service: true
-    assaults:
-      latencyActive: true
-      latencyRangeStart: 4000
-      latencyRangeEnd: 9000
+    #assaults:
+    #  latencyActive: true
+    #  latencyRangeStart: 4000
+    #  latencyRangeEnd: 9000
 server:
   port: 8082
 eureka:
