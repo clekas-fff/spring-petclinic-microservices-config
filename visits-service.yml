@@ -19,8 +19,8 @@ chaos:
       service: true
     assaults:
       latencyActive: true
-      latencyRangeStart: 10000
-      latencyRangeEnd: 15000
+      latencyRangeStart: 4000
+      latencyRangeEnd: 9000
 server:
   port: 8082
 eureka:
