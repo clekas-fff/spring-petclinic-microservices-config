@@ -54,10 +54,10 @@ management:
     web:
       exposure:
         include: '*'
-        include:
-          - health
-          - info
-          - chaosmonkey
+        #include:
+        #  - health
+        #  - info
+        #  - chaosmonkey
   metrics:
     export:
       prometheus:
